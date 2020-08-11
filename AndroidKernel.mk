@@ -195,4 +195,4 @@ kernelconfig: $(KERNEL_OUT) $(KERNEL_CONFIG)
 	cp $(KERNEL_OUT)/defconfig $(TARGET_KERNEL_SOURCE)/arch/$(KERNEL_ARCH)/configs/$(KERNEL_DEFCONFIG)
 
 endif
-endif
+endif,
